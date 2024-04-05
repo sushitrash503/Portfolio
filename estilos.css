@@ -1,24 +1,30 @@
+body, .menu, .menu-items, .menu-items a, .cuadrado-contenido h2, .cuadrado-contenido p, .cuadrado-contenido a, .figcaption, .footer h4, .footer a {
+    font-family: 'Ubuntu', sans-serif; /* Cambiar la fuente a Ubuntu */
+}
+
+/*------------------------------------------------------------*/
+
 body {
     background-color: rgb(238, 235, 235);
     margin: 0px;
 }
-/*------------------------------------------------------------*/
+
 .menu {
     background-color: white;
     padding: 10px 20px; /* Aumenta el espacio interno del menú */
     display: flex;
     align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 15px;
 }
+
 .menu-items {
     display: flex;
     align-items: center;
 }
 
 .img-menu {
-    width: 180px; /* Establece el ancho máximo de la imagen */
+    width: 190px; /* Establece el ancho máximo de la imagen */
     margin-left: 115px;
 }
 
@@ -26,13 +32,15 @@ body {
     margin-left: 20px; /* Agrega espacio entre los elementos */
     color: gray;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
 }
+
 .menu-items a:hover {
     color: black;
     transition: color 0.5s;
 }
-.tres-puntos{
+
+.tres-puntos {
     width: auto;
     opacity: 50%;
     margin-left: 14px;
@@ -44,8 +52,9 @@ body {
     align-items: center;
     gap: 4.5px;
     border-color: transparent;
-    padding: 2px 14px; 
+    padding: 2px 14px;
 }
+
 .iniciar-sesion {
     border: none;
     border-radius: 25px;
@@ -60,35 +69,39 @@ body {
     letter-spacing: -.5px;
     text-transform: uppercase;
 }
+
 /*------------------------------------------------------------*/
+
 .cuadrado {
-    margin-left: 40px;
+    margin-left: 35px;
     margin-right: px;
-    width: 1350px;
+    width: 1280px;
     height: 568px;
     background: linear-gradient(to right, rgb(255, 166, 0), rgb(255, 238, 0));
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     margin-top: 15px;
-} 
+}
+
 .cuadrado-contenido {
     padding: 20px;
 }
-  
+
 .cuadrado-contenido h2 {
-    font-size: 45px;
+    font-size: 40px;
     color: white;
     margin-left: 60px;
     margin-top: 140px;
 }
+
 .cuadrado-contenido p {
     margin-top: -15px;
-    font-size: 25px;
+    font-size: 21px;
     color: white;
     margin-left: 60px;
 }
-  
+
 .cuadrado-contenido a {
     display: inline-block;
     padding: 20px 39px;
@@ -99,75 +112,87 @@ body {
     transition: background-color 0.3s ease;
     margin-left: 60px;
 }
-.carrito{
+
+.carrito {
     width: 850px; /* Define el ancho deseado */
-    margin-left: 542px;
+    margin-left: 465px;
     margin-top: -580px;
     position: absolute;
 }
+
 /*------------------------------------------------------------*/
-.juegos{
+
+.juegos {
     display: flex;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-top: 55px;
 }
-.juegos img{
+
+.juegos img {
     width: 150px;
     margin-left: 134px;
 }
-figcaption{
+
+figcaption {
     color: gray;
     margin-left: 158px;
     margin-top: 5px;
     align-items: center;
 }
-.brawlio:hover{
+
+.brawlio:hover {
     transform: translateY(-5px);
     transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease; /* Levantamos los elementos 5px hacia arriba */
 }
-.clanes:hover{
-    transform: translateY(-5px); 
-    transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;/* Levantamos los elementos 5px hacia arriba */
-}
-.clash:hover{
+
+.clanes:hover {
     transform: translateY(-5px);
     transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease; /* Levantamos los elementos 5px hacia arriba */
 }
-.day:hover{
+
+.clash:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease; /* Levantamos los elementos 5px hacia arriba */
+}
+
+.day:hover {
     transform: translateY(-5px); /* Levantamos los elementos 5px hacia arriba */
     transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
 }
+
 /*------------------------------------------------------------*/
-.cuadrado2{
+
+.cuadrado2 {
     margin-left: 132px;
     margin-right: px;
     width: 1094px;
     height: 516px;
     background-color: white;
     border-radius: 25px;
-    box-shadow: 0 12px 16px rgba(80,51,5,.08), 0 -2px 12px rgba(80,51,5,.05);
+    box-shadow: 0 12px 16px rgba(80, 51, 5, .08), 0 -2px 12px rgba(80, 51, 5, .05);
     overflow: hidden;
     margin-top: 93px;
-    
-} 
+}
+
 .cuadrado-contenido2 {
     padding: px;
     margin-top: -11px;
 }
-  
+
 .cuadrado-contenido2 h2 {
-    font-size: 45px;
+    font-size: 42px;
     color: black;
     margin-left: 60px;
     margin-top: 140px;
 }
+
 .cuadrado-contenido2 p {
     margin-top: -15px;
-    font-size: 25px;
+    font-size: 20px;
     color: gray;
     margin-left: 60px;
 }
-  
+
 .cuadrado-contenido2 a {
     display: inline-block;
     padding: 20px 39px;
@@ -178,22 +203,26 @@ figcaption{
     transition: background-color 0.3s ease;
     margin-left: 60px;
 }
-.carrito2{
+
+.carrito2 {
     width: 651px;
     margin-left: 683px;
     margin-top: -607px;
     position: absolute;
 }
-.footer{
+
+.footer {
     margin-top: 50px;
     background-color: #000;
     padding: 60px 60vh;
 }
-.footer h4{
+
+.footer h4 {
     color: white;
     display: flex;
 }
-.footer a{
+
+.footer a {
     color: red;
     display: flex;
     text-decoration: none;
